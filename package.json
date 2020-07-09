@@ -1,0 +1,24 @@
+{
+  "name": "feinfo",
+  "version": "1.0.0",
+  "description": "frontend info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jany3534/FEInfo.git"
+  },
+  "keywords": [
+    "frontend",
+    "infos",
+    "news"
+  ],
+  "author": "jany3534",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jany3534/FEInfo/issues"
+  },
+  "homepage": "https://github.com/jany3534/FEInfo#readme"
+}
