@@ -1,0 +1,37 @@
+{
+    "include": [
+        "src/**/*",
+      "src/vue-shim.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "jsxFactory": "h",
+        "allowJs": true,
+        "noImplicitAny": false,
+        "module": "esnext",
+        "target": "es5",
+        "moduleResolution": "node",
+        "isolatedModules": true,
+      "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "es7",
+            "es2015.promise"
+        ],
+        "sourceMap": true,
+        "pretty": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+      "strictNullChecks": true
+    }
+}
